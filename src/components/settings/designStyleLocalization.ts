@@ -2,6 +2,7 @@ import { DESIGN_STYLE_PRESETS } from '../../editor/design-presets';
 import type { Locale } from '../../i18n/locale';
 
 const PRESET_NAME_ZH: Record<string, string> = {
+  'Runbox Control Plane': 'Runbox 控制平面',
   'Terracotta Editorial': '陶土杂志风',
   'Retro Duotone Print': '复古双色印刷',
   'Highlighter Notebook': '荧光笔记本',
@@ -29,6 +30,7 @@ const PRESET_NAME_ZH: Record<string, string> = {
 };
 
 const PRESET_GUIDE_ZH: Record<string, string> = {
+  'Runbox Control Plane': 'Runbox 控制平面：以近黑绿色界面、清晰的米白文字、细路线和紧凑等宽标签建立本地开发工具气质，Runbox 绿色只用于当前动作或结论。每个画面围绕一个操作隐喻展开，例如多个项目汇聚、命令依次通过各阶段，或 Git 检查点逐个锁定。优先使用全画幅图解、界面局部和开放式构图，避免悬浮卡片矩阵。动画采用遮罩揭示、路径生长、6–10 帧错峰和无弹跳的稳固回弹；不使用装饰性发光或玻璃效果，并为最终画面保留足够阅读时间。',
   'Terracotta Editorial': '陶土杂志风：沉稳的弹簧入场与分组错峰动画，标题、姓名、要点和时间轴分别从不同方向轻缓进入。以陶土红、铜色和琥珀色为主，搭配白色文字与优雅衬线强调。',
   'Retro Duotone Print': '复古双色印刷：文字采用打字机式逐字出现，图表和时间轴线性生长，不使用透明度或缩放动画。以暖米色为底，只使用深蓝与橙红两种主色。',
   'Highlighter Notebook': '荧光笔记本：高亮笔划从左向右扫过文字，勾选线条逐步绘制，便签和装饰元素轻快弹入。使用柔和青绿色、白纸、黄色荧光笔与深灰文字。',
@@ -104,6 +106,8 @@ const ROLE_ZH: Record<string, string> = {
   callout: '标注色',
   divider: '分隔线',
   grid: '网格线',
+  surface: '界面表面',
+  'accent dim': '弱强调色',
   paper: '纸张色',
   sticky: '便签色',
   texture: '纹理色',

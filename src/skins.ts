@@ -82,6 +82,20 @@ export const SKINS: readonly SkinDef[] = [
       tlTrack: '#131417', tlSidePanel: '#0e0f11',
     },
   },
+  {
+    id: 'runbox', nameZh: 'Runbox 绿',
+    tokens: {
+      ...GRAPHITE,
+      bg: '#0d110e', inset: '#111512', panel: '#151b17', panelAlt: '#1c251e', hover: '#243128',
+      border: '#304237', borderLight: '#46604f',
+      text: '#e8f0ea', textMuted: '#b4c3b7', textDim: '#93a797', textStrong: '#ffffff',
+      accent: '#9bea78', accentDeep: '#6fbd52', accentRgb: '155,234,120', onAccent: '#111512',
+      gold: '#d9c879', select: '#76d7a0', success: '#9bea78', danger: '#f07178',
+      tlTrack: '#182019', tlSidePanel: '#111713',
+      trackVideo: '#3f7658', trackAudioA1: '#bd9357', trackAudioA2: '#5a9670', trackCaption: '#8a6fab',
+      clipVideo: '#397d5b', clipAudio: '#4f9569', clipMg: '#76b85b', clipText: '#b5a85e',
+    },
+  },
   // Catppuccin Mocha:crust/mantle/base/surface level,accent = peach color (warm tone)
   {
     id: 'mocha', nameZh: '摩卡',

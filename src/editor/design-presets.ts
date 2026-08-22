@@ -13,6 +13,28 @@ export interface DesignPreset {
 
 export const DESIGN_STYLE_PRESETS: DesignPreset[] = [
   {
+    id: '9f4a8b9d-9af6-5a83-b81b-f0c1c7712a88',
+    name: 'Runbox Control Plane',
+    scenarios: ['product demo', 'developer tool', 'talking head', 'series video'],
+    style: {
+      colors: [
+        { role: 'background', value: '#111512' },
+        { role: 'surface', value: '#1C251E' },
+        { role: 'text', value: '#F4FBF5' },
+        { role: 'text secondary', value: '#B4C3B7' },
+        { role: 'accent', value: '#9BEA78' },
+        { role: 'accent dim', value: '#4F7A40' },
+        { role: 'grid', value: '#304237' },
+      ],
+      fonts: [
+        { role: 'heading', family: 'Inter Tight' },
+        { role: 'body', family: 'Noto Sans SC' },
+        { role: 'mono', family: 'Space Mono' },
+      ],
+      styleGuide: 'Runbox Control Plane is a local-first developer-tool language: near-black green surfaces, crisp off-white type, thin routing lines, compact monospace labels, and Runbox green reserved for the current action or conclusion. Build each scene around one operational metaphor such as scattered projects converging, a command moving through stages, or Git checkpoints locking into place. Prefer full-frame diagrams, cropped interface details, and open layouts over floating card grids. Motion is precise and directional: clipped reveals, path growth, 6-10 frame item staggers, and a firm spring settle (damping 28, stiffness 90) without bounce. Keep one dominant idea per scene, preserve negative space, use no decorative glow or glass, and hold the settled frame long enough to read before a short 12-18 frame exit.',
+    },
+  },
+  {
     id: '53417178-6788-5241-b0d6-8925371029e0',
     name: 'Terracotta Editorial',
     style: {
